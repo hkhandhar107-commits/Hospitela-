@@ -1,0 +1,1 @@
+</main><footer class="footer">© <?= date('Y') ?> CarePoint Hospital · College Project Demo</footer></body></html>

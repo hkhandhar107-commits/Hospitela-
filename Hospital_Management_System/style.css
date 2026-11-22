@@ -1,0 +1,13 @@
+:root{--blue:#0879b9;--dark:#123047;--light:#f2f7fb;--white:#fff;--muted:#64748b;--red:#c0392b;--green:#16845b}
+*{box-sizing:border-box}body{margin:0;font-family:Arial,Helvetica,sans-serif;background:var(--light);color:#243447}
+a{text-decoration:none;color:var(--blue)}.topbar{background:var(--blue);color:#fff;padding:16px 5%;display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.brand{font-size:22px;font-weight:700}.nav{display:flex;gap:14px;flex-wrap:wrap}.nav a{color:#fff;font-size:14px}
+.container{max-width:1150px;margin:28px auto;padding:0 18px}.welcome{background:linear-gradient(120deg,#0879b9,#12a6b5);color:#fff;border-radius:14px;padding:28px;margin-bottom:22px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:16px;margin:18px 0}.card,.panel,.auth-card{background:#fff;border-radius:12px;padding:20px;box-shadow:0 5px 18px #16324f12}
+.card h3{margin:0 0 10px;color:var(--muted);font-size:15px}.number{font-size:30px;font-weight:bold;color:var(--blue)}
+.panel{margin:18px 0;overflow-x:auto}.panel h2{margin-top:0}.form-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px}
+label{display:block;font-weight:600;font-size:14px;margin-bottom:6px}input,select,textarea{width:100%;padding:11px;border:1px solid #cbd5e1;border-radius:7px;font:inherit;background:#fff}
+textarea{min-height:80px;resize:vertical}.btn{display:inline-block;border:0;background:var(--blue);color:#fff;padding:11px 16px;border-radius:7px;cursor:pointer;font-weight:600;margin-top:12px}.btn:hover{filter:brightness(.92)}.btn-danger{background:var(--red)}.btn-green{background:var(--green)}
+table{width:100%;border-collapse:collapse;min-width:650px}th,td{text-align:left;padding:12px;border-bottom:1px solid #e2e8f0;font-size:14px}th{background:#eef6fb;color:#234}.alert{padding:12px;border-radius:7px;margin:12px 0;background:#e8f7ee;color:#166534}.error{background:#fdecec;color:#991b1b}.auth-wrap{min-height:100vh;display:grid;place-items:center;padding:20px;background:linear-gradient(135deg,#eaf7ff,#f6fbff)}
+.auth-card{width:min(440px,100%);padding:30px}.auth-card h1{color:var(--blue);margin-top:0}.auth-card .btn{width:100%}.muted{color:var(--muted);font-size:14px}.footer{text-align:center;color:var(--muted);padding:25px}.actions{display:flex;gap:8px;flex-wrap:wrap}.pill{display:inline-block;background:#e0f2fe;color:#075985;padding:4px 8px;border-radius:20px;font-size:12px}
+@media(max-width:600px){.topbar{padding:14px}.brand{font-size:19px}.container{margin-top:18px}.welcome{padding:20px}}
